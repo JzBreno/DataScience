@@ -48,6 +48,8 @@ avg_connectins = total_connecions/num_users
 #criar uma lista e preenche ela para todos os valores de user
 num_frinds_by_id = [(user["id"], number_of_frinds(user)) for user in users]
 
-sorted(num_frinds_by_id,
-       key=lambda num_friends: num_friends,
-       reverse= True)
+for x in user["id"], num_frinds_by_id:
+    print(type(x))
+    sorted(num_frinds_by_id,
+        key=lambda x: x,
+        reverse=True)
