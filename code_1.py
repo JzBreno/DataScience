@@ -18,6 +18,7 @@ friendships = {user["id"]: [] for user in users}
 for i, j in friendships_pairs:
     friendships[i].append(j)
     friendships[j].append(i)
+   
 
 
 def number_of_frinds(user):
@@ -28,4 +29,22 @@ def number_of_frinds(user):
 
 total_connecions = sum(number_of_frinds(user) for user in users)
 numusers = len(users)
-print(numusers)
+average_conections = total_connecions / numusers
+
+num_friends_by_id = [(user['id'], number_of_frinds(user)) for user in users]
+
+num_friends_by_id.sort( #chamando metodo para organizar dos maiore para o menor
+    key=lambda id_and_friends : id_and_friends[1],
+      reverse=True 
+      )
+
+
+def foaf_ids_bad(user):
+    
+   return [ foaf_id
+           for friend_id in friendships[user["id"]]
+           for foaf_id in friendships[friend_id]
+       
+
+   ]
+print(foaf_ids_bad((user) for user in users))
