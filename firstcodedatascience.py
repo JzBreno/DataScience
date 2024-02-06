@@ -23,6 +23,7 @@ friendships = [(0, 1), (0, 2), (1, 2), (1, 3), (2, 3), (3, 4),
 #introduzimos uma nova lista no dicionario para correlacionar esses dados
 for user in users:
     user["friends"] = []
+    print(user)
 
 #iremos preencher essas listas, passara os valores de friendships dos pares ordenados para i e j
     
@@ -48,8 +49,17 @@ avg_connectins = total_connecions/num_users
 #criar uma lista e preenche ela para todos os valores de user
 num_frinds_by_id = [(user["id"], number_of_frinds(user)) for user in users]
 
+# gabiarra do codigo que tem no livro, feito por mim
 for x in user["id"], num_frinds_by_id:
-    print(type(x))
+    
     sorted(num_frinds_by_id,
         key=lambda x: x,
         reverse=True)
+    
+def friends_of_friends_ids_bad(user):
+    
+    for friend in user["friends"]:
+        print(friend)
+    for foaf in friend["friends"]:
+        print()
+        
