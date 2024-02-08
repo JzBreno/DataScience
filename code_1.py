@@ -1,3 +1,7 @@
+from collections import Counter
+
+
+
 users = [{"id": 0, "name": "Hero"},
          {"id": 1, "name": "Dunn"},
          {"id": 2, "name": "Sue"},
@@ -41,10 +45,21 @@ num_friends_by_id.sort( #chamando metodo para organizar dos maiore para o menor
 
 def foaf_ids_bad(user):
     
-   return [ foaf_id
-           for friend_id in friendships[user["id"]]
-           for foaf_id in friendships[friend_id]
+  return [ foaf_id
+          for friend_id in friendships[user["id"]]
+          for foaf_id in friendships[friend_id]
        
 
-   ]
-print(foaf_ids_bad((user) for user in users))
+  ]
+for user in users:
+    print(foaf_ids_bad(user))
+
+def friends_of_friends(user):
+    user_id = user['id']
+    return Counter(foaf_id for rel in friendships[user_id]
+                   for foaf_id in friendships[rel]
+                   if foaf_id != user_id
+                   and foaf_id not in friendships[user_id])
+
+for user in users:
+    print(friends_of_friends(user))
