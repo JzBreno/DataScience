@@ -1,0 +1,21 @@
+ORGANIZAÇÃO DA SQL
+
+DQL - Linguagem de consukta de dados 
+    SElECT;
+DML - Linguagem de Manipulação de dados
+    INSERT, UPDATE E DELETE;
+DDL - Linguagem de definição de dados
+    CREATE, ALTER, DROP;
+
+DCL - linguagem de controle de dados
+    GRANT, REVOKE
+DTL - linguagem de transação de dados
+        BEGIN, COMMIT, ROLLBACK
+
+
+MER E DER
+
+O MER é representado através de diagramas chmadso diagramas entidade - relacionamneto
+(DER)
+
+link hhtps://app.creately.com/
