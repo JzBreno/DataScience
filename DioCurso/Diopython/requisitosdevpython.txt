@@ -1,0 +1,14 @@
+ > Requisitos Obrigatórios:
+• Banco de Dados - Requisitos Obrigatórios
+• SQL;
+• Modelagem Entidade-Relacional;
+• Formas Normais (1,2,3-NF);
+• Queries analíticas (Joins e Agregações).
+• Python - Obrigatório
+• SQLAlchemy;
+• FastAPI (ou Flask);
+• Pydantic.
+• DevOps - Obrigatório
+• Git;
+• Docker;
+• Docker Compose.
