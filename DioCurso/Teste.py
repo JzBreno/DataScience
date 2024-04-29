@@ -1,9 +1,2 @@
-
-variavel  = 100
-
-
-def aplicar_aumento(variavel):
-    if variavel == 100:
-        return int(variavel * 0.2) + variavel
-    
-print(aplicar_aumento(variavel))
+carro = {"marca": "Fiat", "modelo": "palio", "placa": "ABD-9826"}
+print(carro.get("motor"))
