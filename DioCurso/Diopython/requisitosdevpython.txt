@@ -12,3 +12,4 @@
 • Git;
 • Docker;
 • Docker Compose.
+

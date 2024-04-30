@@ -1,0 +1,65 @@
+AWS CAF
+
+serve para:
+- identificar e priorizar oportunidades de tranformação digital
+- avaliar e aumentar a prontidão para a nuvem
+- desenvolver um roteiro para guiar a transição dos negocuios para a nuvem
+
+Beneficios CAF
+
+- Redução do risco comercial
+- orquestrar as iniciativas de nuvem
+- maximiza os beneficios organizacionais e minimiza os riscos relacionados a transformação
+- confidencialidade, integridade e disponibilidade de dados e workloads na nuvem
+
+Melhoria do desempenho em ESG
+
+-aspectos: ambinetal, social e de governnaça
+-aws caf ajuda a alinhar os objetivos de negocios copmos principios de ESG
+-reduzir a pegada de carbono, promover a inclusão e a diversidade e melhorar a transparencia e a responsabilidade 
+
+aumento da receita
+
+-acelera ambilções de tranformalção digital e resultados de negocios
+-aumentar a agilidade, inovação e competitividade no mercado
+-espandir o alcance global e a base de clientes
+
+aumento da eficiencia operacional
+
+-construir uma plataforma de nuvem hibrida, escalavel e de nivel empresarial
+- modernizar workloads existentes e implemnetar novas soluçãoes nativas da nuvem
+- otmimzar custos, recursos e processos
+- melhorar a qualidade, performance e disponibilidade de seus workloads
+
+dominios de tranformação da nuvem
+
+- transf tecnologica
+- transf de processos
+- transf organizacional
+- transf de produtos
+
+pespectivas do aws caf
+
+negocios
+pessoas
+governança 
+plataforma
+segurança
+operações
+
+Estrategias de migração para nuvem AWS
+
+retirada
+-manter app em ambiente de origem ou adiar a migração
+reter 
+-manter app em ambiente de origem ou adiar a migração
+rehost
+mover app parta nuvem sem modificar 
+relocated
+- tranferir servidores ou inbstancias paar outra platafoma na nuvem
+repurchase
+substituir aplicativo por uma versaao ou produto diferente
+replatform
+- mover app para nuvem e otimizalos para reduzir custos ou melhorar desempenho
+refactor
+- mudar tudo e so usar os recursos
