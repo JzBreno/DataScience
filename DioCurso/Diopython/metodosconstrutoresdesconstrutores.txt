@@ -1,0 +1,35 @@
+__init__ é um metodo construtor, sempe é chamado qunado uma nova instancia da classe é criada
+
+exe:
+
+class cachorro:
+    def __init__(self, nome, cor, acordado=True): #self é a instancia que criamos
+        self.nome = nome #atributos(caracteristiacs da classe)
+        self.cor = cor #atributos(caracteristiacs da classe)
+        self.cor = cor #atributos(caracteristiacs da classe)
+        self.acordado = acordado #atributos(caracteristiacs da classe)
+
+exe:
+
+class bicicleta(): 
+    def __init__(self, cor, modelo, ano, valor): #self é a instancia que criamos
+        self.modelo = modelo #atributos(caracteristiacs da classe)
+        self.ano = ano #atributos(caracteristiacs da classe)
+        self.valor = valor #atributos(caracteristiacs da classe)
+        self.cor = cor #atributos(caracteristiacs da classe)
+
+
+__del__ é um metodo destrutor, sempre é executado quando um objeto é destruido, em python tem umm coletor que deixa o uso do __del__ redudante
+
+exe:
+class cachorro:
+    def __del__():
+        print("destruindo a instancia")
+exe:
+
+class bicicleta(): 
+    def __del__():
+        print("destruindo a instancia")
+
+c = cachorro()
+del c
