@@ -1,4 +1,4 @@
-
+import banco
 def Saldo(saldo):
     print(saldo, f'Reais')
 
@@ -24,7 +24,7 @@ def Saque(saldo, limitesaque, extratosaques):
     saque = int(input("Digite o valor que deseja sacar: "))
     if saque <= 500 and limitesaque > 0 and saldo > 0:
         limitesaques -= 1
-        extratosaque.append(saque)
+        banco.extratosaque.append(saque)
         saldo -= saque
         print("Saque Feito com Sucesso!")
     else:
