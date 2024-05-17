@@ -1,6 +1,6 @@
 class Foo:
     def hello(self):
-        print(self.__class__.__name__.lower())
+        print(self.__class__.__name__.upper())
 
 
 class Bar(Foo):
@@ -8,5 +8,4 @@ class Bar(Foo):
         return super().hello()
 
 
-bar = Bar()
-bar.hello()
+bar = Bar().hello()

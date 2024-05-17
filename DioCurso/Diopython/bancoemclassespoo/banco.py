@@ -1,6 +1,7 @@
+import defs
 import os
 from time import sleep
-import defs 
+ 
 extratosaque = []
 limitesaques = 3
 saldo = float()
@@ -9,6 +10,7 @@ deposito = float()
 saque = float()
 
 print("Bem vindo ao banco")
+
 
 
 while True:
@@ -29,8 +31,7 @@ while True:
             case 3:
                 defs.Extrato(extratosaque)
             case 4:
-                saldo, limitesaques, extratosaque = defs.Saque(
-                    saldo, limitesaques, extratosaque)
+                saldo, limitesaques = defs.Saque(saldo, limitesaques)
             case 5:
                 break
 
