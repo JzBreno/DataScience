@@ -20,7 +20,6 @@ Escrevendo da filho2() Função
 """
 #retornando funções de funções
 
-@meu_decorador
 
 def calcular(operacao):
     def somar(a,b):
